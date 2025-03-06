@@ -30,12 +30,7 @@ meet-maestro/
 ## Installation
 
 1. Cloner ce dépôt
-2. Créer les dossiers nécessaires :
-   ```
-   mkdir -p config utils
-   touch config/__init__.py utils/__init__.py
-   ```
-3. Installer les dépendances : 
+2. Installer les dépendances : 
    ```
    pip install -r requirements.txt
    ```
