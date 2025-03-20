@@ -17,7 +17,7 @@ from selenium import webdriver
 # Import des modules internes
 from config.constants import DEFAULT_AUDIO_FILE, DEFAULT_MEET_URL
 from utils.browser import get_chrome_options
-from utils.audio import play_audio, audio_finished, set_audio_file
+from utils.audio import play_audio, audio_finished, set_audio_file, interrupt_audio, reset_audio_state
 from utils.meeting import join_meeting, quit_meeting, check_meeting_active
 
 # Configuration du logging
@@ -45,8 +45,24 @@ def parse_arguments():
     
     return parser.parse_args()
 
+def keyboard_interrupt_handler(signal, frame):
+    """Gestionnaire d'interruption clavier (Ctrl+C)"""
+    logger.info("Programme interrompu par l'utilisateur (Ctrl+C).")
+    print("\nProgramme interrompu par l'utilisateur.")
+    # Interrompre la lecture audio en cours
+    interrupt_audio()
+    # Laisser le bloc finally gérer la fermeture du navigateur
+    sys.exit(0)
+
 def main():
     """Fonction principale du Meet Maestro Bot"""
+    # Configurer le gestionnaire d'interruption clavier
+    import signal
+    signal.signal(signal.SIGINT, keyboard_interrupt_handler)
+    
+    # Réinitialiser l'état de l'audio
+    reset_audio_state()
+    
     # Récupérer les arguments de ligne de commande
     args = parse_arguments()
     
@@ -134,6 +150,8 @@ def main():
                 if consecutive_inactive >= 3:
                     logger.info("L'utilisateur a quitté la réunion (3 vérifications consécutives)")
                     print("Réunion terminée par l'utilisateur.")
+                    # Interrompre la lecture audio en cours
+                    interrupt_audio()
                     break
             else:
                 # Réinitialiser le compteur si la réunion est active
@@ -158,9 +176,13 @@ def main():
     except KeyboardInterrupt:
         logger.info("Programme interrompu par l'utilisateur.")
         print("\nProgramme interrompu par l'utilisateur.")
+        # Interrompre la lecture audio en cours
+        interrupt_audio()
     except Exception as e:
         logger.error(f"Erreur principale : {e}")
         print(f"ERREUR: {e}")
+        # Interrompre la lecture audio en cas d'erreur
+        interrupt_audio()
     finally:
         # S'assurer que le navigateur se ferme correctement
         logger.info("Fermeture du navigateur...")

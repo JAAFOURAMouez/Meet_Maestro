@@ -73,3 +73,95 @@
 2025-03-06 19:39:30,758 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/0a5c9e3c1b67958304924fb3435e58c8
 2025-03-06 19:39:30,759 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x73eb8ccdaa40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0a5c9e3c1b67958304924fb3435e58c8
 2025-03-06 19:39:30,759 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x73eb8ccdab00>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0a5c9e3c1b67958304924fb3435e58c8
+2025-03-14 09:37:32,133 - INFO - Utilisation de l'URL: https://meet.google.com/sxj-txmv-qtb
+2025-03-14 09:37:32,136 - INFO - Utilisation du fichier audio: test.wav
+2025-03-14 09:37:32,137 - INFO - Initialisation du navigateur Chrome...
+2025-03-14 09:37:34,568 - INFO - Chrome initialisé sans Service
+2025-03-14 09:37:34,568 - INFO - Accès à l'URL: https://meet.google.com/sxj-txmv-qtb
+2025-03-14 09:37:43,487 - INFO - Attente du champ de saisie du nom...
+2025-03-14 09:37:44,411 - INFO - Nom 'Meet Maestro Bot' saisi avec succès
+2025-03-14 09:37:46,063 - INFO - Bouton Rejoindre cliqué avec succès
+2025-03-14 09:38:06,085 - INFO - Attente de l'acceptation par l'hôte...
+2025-03-14 09:38:06,199 - INFO - Hôte accepté, réunion lancée.
+2025-03-14 09:38:06,200 - INFO - Attente de chargement complet de l'interface Meet...
+2025-03-14 09:38:11,206 - INFO - Démarrage du thread audio...
+2025-03-14 09:38:12,029 - INFO - Lecture de l'audio test.wav directement vers le microphone...
+2025-03-14 09:38:12,250 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,0) (index: 0)
+2025-03-14 09:38:12,251 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,7) (index: 4)
+2025-03-14 09:38:12,252 - INFO - Périphérique d'entrée trouvé: sysdefault (index: 5)
+2025-03-14 09:38:12,252 - INFO - Sélection du périphérique d'entrée par défaut: sysdefault
+2025-03-14 09:38:12,280 - INFO - Configuration des streams audio - Taux: 44100Hz, Canaux: 2
+2025-03-14 09:38:13,278 - INFO - Surveillance de la réunion...
+2025-03-14 09:38:22,808 - INFO - Surveillance en cours... (10 vérifications)
+2025-03-14 09:38:33,350 - INFO - Surveillance en cours... (20 vérifications)
+2025-03-14 09:38:43,946 - INFO - Surveillance en cours... (30 vérifications)
+2025-03-14 09:38:54,615 - INFO - Surveillance en cours... (40 vérifications)
+2025-03-14 09:39:05,783 - INFO - Surveillance en cours... (50 vérifications)
+2025-03-14 09:39:14,491 - INFO - Lecture audio terminée avec succès.
+2025-03-14 09:39:15,071 - INFO - Audio terminé, quitter la réunion...
+2025-03-14 09:39:15,072 - INFO - Tentative de quitter la réunion...
+2025-03-14 09:39:15,579 - INFO - Réunion quittée avec succès.
+2025-03-14 09:39:17,581 - INFO - Fermeture du navigateur...
+2025-03-14 09:48:38,018 - INFO - Utilisation de l'URL: https://meet.google.com/sxj-txmv-qtb
+2025-03-14 09:48:38,018 - INFO - Utilisation du fichier audio: test.wav
+2025-03-14 09:48:38,019 - INFO - Initialisation du navigateur Chrome...
+2025-03-14 09:48:40,625 - INFO - Chrome initialisé sans Service
+2025-03-14 09:48:40,626 - INFO - Accès à l'URL: https://meet.google.com/sxj-txmv-qtb
+2025-03-14 09:48:49,215 - INFO - Attente du champ de saisie du nom...
+2025-03-14 09:48:50,245 - INFO - Nom 'Meet Maestro Bot' saisi avec succès
+2025-03-14 09:48:52,536 - INFO - Bouton Rejoindre cliqué avec succès
+2025-03-14 09:49:12,563 - INFO - Attente de l'acceptation par l'hôte...
+2025-03-14 09:49:13,604 - INFO - Hôte accepté, réunion lancée.
+2025-03-14 09:49:13,604 - INFO - Attente de chargement complet de l'interface Meet...
+2025-03-14 09:49:18,615 - INFO - Démarrage du thread audio...
+2025-03-14 09:49:19,122 - INFO - Lecture de l'audio test.wav directement vers le microphone...
+2025-03-14 09:49:19,330 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,0) (index: 0)
+2025-03-14 09:49:19,331 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,7) (index: 4)
+2025-03-14 09:49:19,332 - INFO - Périphérique d'entrée trouvé: sysdefault (index: 5)
+2025-03-14 09:49:19,332 - INFO - Sélection du périphérique d'entrée par défaut: sysdefault
+2025-03-14 09:49:19,359 - INFO - Configuration des streams audio - Taux: 44100Hz, Canaux: 2
+2025-03-14 09:49:20,755 - INFO - Surveillance de la réunion...
+2025-03-14 09:49:30,231 - INFO - Surveillance en cours... (10 vérifications)
+2025-03-14 09:49:40,720 - INFO - Surveillance en cours... (20 vérifications)
+2025-03-14 09:49:51,508 - INFO - Surveillance en cours... (30 vérifications)
+2025-03-14 09:50:00,965 - INFO - bouton quitter introuvable
+2025-03-14 09:50:00,965 - WARNING - Réunion potentiellement inactive (1/3)
+2025-03-14 09:50:01,997 - INFO - bouton quitter introuvable
+2025-03-14 09:50:01,998 - WARNING - Réunion potentiellement inactive (2/3)
+2025-03-14 09:50:01,998 - INFO - Surveillance en cours... (40 vérifications)
+2025-03-14 09:50:03,041 - INFO - bouton quitter introuvable
+2025-03-14 09:50:03,041 - WARNING - Réunion potentiellement inactive (3/3)
+2025-03-14 09:50:03,042 - INFO - L'utilisateur a quitté la réunion (3 vérifications consécutives)
+2025-03-14 09:50:03,042 - INFO - Interruption de la lecture audio demandée
+2025-03-14 09:50:03,059 - INFO - Lecture audio interrompue.
+2025-03-14 09:50:05,044 - INFO - Fermeture du navigateur...
+2025-03-14 10:03:39,555 - INFO - Utilisation de l'URL: https://meet.google.com/znp-tfrr-ycx
+2025-03-14 10:03:39,558 - INFO - Utilisation du fichier audio: test.wav
+2025-03-14 10:03:39,558 - INFO - Initialisation du navigateur Chrome...
+2025-03-14 10:03:42,293 - INFO - Chrome initialisé sans Service
+2025-03-14 10:03:42,294 - INFO - Accès à l'URL: https://meet.google.com/znp-tfrr-ycx
+2025-03-14 10:03:52,927 - INFO - Attente du champ de saisie du nom...
+2025-03-14 10:03:53,805 - INFO - Nom 'Meet Maestro Bot' saisi avec succès
+2025-03-14 10:03:55,529 - INFO - Bouton Rejoindre cliqué avec succès
+2025-03-14 10:04:15,549 - INFO - Attente de l'acceptation par l'hôte...
+2025-03-14 10:04:15,678 - INFO - Hôte accepté, réunion lancée.
+2025-03-14 10:04:15,679 - INFO - Attente de chargement complet de l'interface Meet...
+2025-03-14 10:04:20,685 - INFO - Démarrage du thread audio...
+2025-03-14 10:04:21,075 - INFO - Lecture de l'audio test.wav directement vers le microphone...
+2025-03-14 10:04:21,220 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,0) (index: 0)
+2025-03-14 10:04:21,221 - INFO - Périphérique d'entrée trouvé: sof-hda-dsp: - (hw:0,7) (index: 3)
+2025-03-14 10:04:21,221 - INFO - Périphérique d'entrée trouvé: sysdefault (index: 4)
+2025-03-14 10:04:21,221 - INFO - Sélection du périphérique d'entrée par défaut: sysdefault
+2025-03-14 10:04:21,242 - INFO - Configuration des streams audio - Taux: 44100Hz, Canaux: 2
+2025-03-14 10:04:22,758 - INFO - Surveillance de la réunion...
+2025-03-14 10:04:32,174 - INFO - Surveillance en cours... (10 vérifications)
+2025-03-14 10:04:42,548 - INFO - Surveillance en cours... (20 vérifications)
+2025-03-14 10:04:53,239 - INFO - Surveillance en cours... (30 vérifications)
+2025-03-14 10:05:03,880 - INFO - Surveillance en cours... (40 vérifications)
+2025-03-14 10:05:14,206 - INFO - Surveillance en cours... (50 vérifications)
+2025-03-14 10:05:15,743 - INFO - Programme interrompu par l'utilisateur (Ctrl+C).
+2025-03-14 10:05:15,744 - INFO - Interruption de la lecture audio demandée
+2025-03-14 10:05:15,744 - INFO - Fermeture du navigateur...
+2025-03-14 10:05:15,747 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /session/e865db61e249fd66dbd792e344c58969
+2025-03-14 10:05:15,750 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7786c90a5ea0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e865db61e249fd66dbd792e344c58969
+2025-03-14 10:05:15,752 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7786c90a6020>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e865db61e249fd66dbd792e344c58969

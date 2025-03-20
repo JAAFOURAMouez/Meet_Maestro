@@ -100,3 +100,4 @@ def check_meeting_active(driver):
         logger.error(f"Erreur lors de la vérification de l'état de la réunion: {e}")
         # Par sécurité, on suppose que la réunion est toujours active
         return True
+    
